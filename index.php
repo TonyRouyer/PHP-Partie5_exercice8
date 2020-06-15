@@ -10,10 +10,9 @@
     </head>
     <body>
         <?php
-            for ($numero = 0; $numero <= 11; $numero++)
-            {
-                echo '<p>' . $month[$numero] . '</p>';
-            }
+        foreach ($month as $ $value) {
+            echo $value;
+        }
         ?>
     </body>
 </html>
